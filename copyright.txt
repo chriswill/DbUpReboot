@@ -1,0 +1,2 @@
+Copyright (C) 2021 DbUp Reboot contributors.
+Portions copyright (C) 2015 DbUp contributors.

@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>DbUp Reboot is a fork of the DbUp project that focuses on modern technologies and development approaches.
+
+DbUp Reboot makes it easy to deploy and upgrade SQL Server databases by running change scripts. This is the core library and should be used in conjunction with the database specific package (eg DbUp.Reboot.SqlServer, DbUp.Reboot.Sqlite)</Description>
+    <Title>DbUp Core library</Title>
+    <Authors>DbUp Reboot Contributors</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>DbUp.Reboot.Core</AssemblyName>
+    <RootNamespace>DbUp.Reboot</RootNamespace>
+    <PackageId>DbUp.Reboot.Core</PackageId>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <DefineConstants>$(DefineConstants);LIBLOG_PORTABLE;LIBLOG_PROVIDERS_ONLY</DefineConstants>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+
+</Project>

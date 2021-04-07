@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29230.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.Core", "source\DbUp.Reboot.Core\DbUp.Reboot.Core.csproj", "{C98DE7C6-AF51-4901-904D-75FCCB17EE31}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.SqlServer", "source\DbUp.Reboot.SqlServer\DbUp.Reboot.SqlServer.csproj", "{8190B40B-AC5B-414F-8A00-9B6A2C12B010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.Sqlite", "source\DbUp.Reboot.Sqlite\DbUp.Reboot.Sqlite.csproj", "{BCE32C14-27E3-4E0D-BC1F-EC9CCB128F00}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.Tests", "test\DbUp.Reboot.Tests\DbUp.Reboot.Tests.csproj", "{854B6565-B423-4E2C-938B-406C6EAC9C0E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{ACA9F575-BFC0-4FE1-BAB6-AE59FD8E5C26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SampleApplication", "samples\SampleApplication\SampleApplication.csproj", "{397F41BC-1076-4D1B-9620-C6051E8104F4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteSampleApplication", "samples\SQLiteSampleApplication\SQLiteSampleApplication.csproj", "{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A4038E39-8E61-4004-AEFF-631DF5A3BE13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C98DE7C6-AF51-4901-904D-75FCCB17EE31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C98DE7C6-AF51-4901-904D-75FCCB17EE31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C98DE7C6-AF51-4901-904D-75FCCB17EE31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C98DE7C6-AF51-4901-904D-75FCCB17EE31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8190B40B-AC5B-414F-8A00-9B6A2C12B010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8190B40B-AC5B-414F-8A00-9B6A2C12B010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8190B40B-AC5B-414F-8A00-9B6A2C12B010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8190B40B-AC5B-414F-8A00-9B6A2C12B010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCE32C14-27E3-4E0D-BC1F-EC9CCB128F00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCE32C14-27E3-4E0D-BC1F-EC9CCB128F00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCE32C14-27E3-4E0D-BC1F-EC9CCB128F00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCE32C14-27E3-4E0D-BC1F-EC9CCB128F00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{854B6565-B423-4E2C-938B-406C6EAC9C0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{854B6565-B423-4E2C-938B-406C6EAC9C0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{854B6565-B423-4E2C-938B-406C6EAC9C0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{854B6565-B423-4E2C-938B-406C6EAC9C0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{397F41BC-1076-4D1B-9620-C6051E8104F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{397F41BC-1076-4D1B-9620-C6051E8104F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{397F41BC-1076-4D1B-9620-C6051E8104F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{397F41BC-1076-4D1B-9620-C6051E8104F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{854B6565-B423-4E2C-938B-406C6EAC9C0E} = {A4038E39-8E61-4004-AEFF-631DF5A3BE13}
+		{397F41BC-1076-4D1B-9620-C6051E8104F4} = {ACA9F575-BFC0-4FE1-BAB6-AE59FD8E5C26}
+		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3} = {ACA9F575-BFC0-4FE1-BAB6-AE59FD8E5C26}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6807402B-EE7A-4324-A615-28F3499B1E9F}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = DbUp\DbUp.csproj
+	EndGlobalSection
+EndGlobal

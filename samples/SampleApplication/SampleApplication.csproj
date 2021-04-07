@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>SampleApplication</RootNamespace>
+    <AssemblyName>SampleApplication</AssemblyName> 
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\*.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="RunAlways\RunAlwaysScript0001 - CreateRole.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RunAlways\RunAlwaysScript0001 - CreateRole.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\DbUp.Reboot.SqlServer\DbUp.Reboot.SqlServer.csproj" />
+  </ItemGroup>
+</Project>

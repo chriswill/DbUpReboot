@@ -158,7 +158,7 @@ namespace DbUp.Reboot.Tests.ScriptProvider
             {
                 filesToExecute
                         .Select(f => f.Name)
-                        .ShouldContain("Folder1.dbup-tests.TestScripts.Test1__9.sql");
+                        .ShouldContain("DbUp.Reboot.Tests.TestScripts.Script20110301_1_Test1.sql");
             }
 
             [Then]
@@ -218,9 +218,9 @@ namespace DbUp.Reboot.Tests.ScriptProvider
             {
                 filesToExecute
                         .Select(f => f.Name)
-                        .ShouldContain("dbup-tests.TestScripts.Test1__9.sql");
+                        .ShouldContain("DbUp.Reboot.Tests.TestScripts.Test1__9.sql");
             }
-
+            
             [Then]
             public void the_files_should_be_correctly_ordered_without_subdirectory_order()
             {

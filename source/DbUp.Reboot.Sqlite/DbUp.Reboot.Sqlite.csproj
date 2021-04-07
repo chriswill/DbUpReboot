@@ -12,6 +12,9 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This packa
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Copyright>Copyright © DbUp Reboot Contributors 2021; portions copyright  DbUp Contributors 2015</Copyright>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/chriswill/DbUpReboot</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/chriswill/DbUpReboot</RepositoryUrl>
+    <PackageTags>DbUp Reboot database SQL</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

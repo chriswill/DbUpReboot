@@ -14,6 +14,9 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases by running 
     <DefineConstants>$(DefineConstants);LIBLOG_PORTABLE;LIBLOG_PROVIDERS_ONLY</DefineConstants>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <RepositoryUrl>https://github.com/chriswill/DbUpReboot</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/chriswill/DbUpReboot</PackageProjectUrl>
+    <PackageTags>DbUp Reboot database SQL</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

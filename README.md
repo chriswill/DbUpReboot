@@ -1,11 +1,11 @@
 # DbUp Reboot
 
-***
-
-* Build (master): [![.NET](https://github.com/chriswill/DbUpReboot/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/chriswill/DbUpReboot/actions/workflows/dotnet.yml)
-* DbUp.Reboot.Core: [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Core)](https://www.nuget.org/packages/DbUp.Reboot.Core/)
-* DbUp.Reboot.Sqlite: [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Sqlite)](https://www.nuget.org/packages/DbUp.Reboot.Sqlite/)
-* DbUp.Reboot.SqlServer: [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.SqlServer)](https://www.nuget.org/packages/DbUp.Reboot.SqlServer/)
+|   | Stable | 
+| :--: |  :--:  |
+| Build (master) | [![.NET](https://github.com/chriswill/DbUpReboot/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/chriswill/DbUpReboot/actions/workflows/dotnet.yml) | 
+| DbUp.Reboot.Core | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Core)](https://www.nuget.org/packages/DbUp.Reboot.Core/) |
+| DbUp.Reboot.Sqlite | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Sqlite)](https://www.nuget.org/packages/DbUp.Reboot.Sqlite/) |
+| DbUp.Reboot.SqlServer | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.SqlServer)](https://www.nuget.org/packages/DbUp.Reboot.SqlServer/) |
 
 ***
 

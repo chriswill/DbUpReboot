@@ -17,6 +17,10 @@ This library supports netstandard2.0 and the following databases:
 * MySql
 * Sqlite
 
+For documentation, please see the DbUp documentation page at [https://dbup.readthedocs.io/en/latest/](https://dbup.readthedocs.io/en/latest/)
+
+***
+
 The goal with this project is to focus only on the most popular databases and to keep the project up to date with the most recent libraries. 
 
 I hope that community members can help out with answering questions in the forums. Pull requests are also encouraged and invited.

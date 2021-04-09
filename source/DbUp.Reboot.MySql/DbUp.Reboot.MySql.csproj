@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>DbUp Reboot Contributors</Authors>
+    <Description>DbUp Reboot is a fork of the DbUp project that focuses on modern technologies and development approaches.
+
+DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This package adds MySql support.</Description>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <Copyright>Copyright © DbUp Reboot Contributors 2021; portions copyright  DbUp Contributors 2015</Copyright>
+    <RepositoryUrl>https://github.com/chriswill/DbUpReboot</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/chriswill/DbUpReboot</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.23" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DbUp.Reboot.Core\DbUp.Reboot.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

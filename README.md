@@ -4,6 +4,7 @@
 | :--: |  :--:  |
 | Build (master) | [![.NET](https://github.com/chriswill/DbUpReboot/actions/workflows/dotnet.yml/badge.svg?branch=master)](https://github.com/chriswill/DbUpReboot/actions/workflows/dotnet.yml) | 
 | DbUp.Reboot.Core | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Core)](https://www.nuget.org/packages/DbUp.Reboot.Core/) |
+| DbUp.Reboot.MySql | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.MySql)](https://www.nuget.org/packages/DbUp.Reboot.MySql/) |
 | DbUp.Reboot.Sqlite | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Sqlite)](https://www.nuget.org/packages/DbUp.Reboot.Sqlite/) |
 | DbUp.Reboot.SqlServer | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.SqlServer)](https://www.nuget.org/packages/DbUp.Reboot.SqlServer/) |
 
@@ -13,6 +14,7 @@ DbUp Reboot is a fork of the [DbUp](https://github.com/DbUp/DbUp) project that f
 
 This library supports netstandard2.0 and the following databases:
 * Microsoft Sql Server
+* MySql
 * Sqlite
 
 The goal with this project is to focus only on the most popular databases and to keep the project up to date with the most recent libraries. 

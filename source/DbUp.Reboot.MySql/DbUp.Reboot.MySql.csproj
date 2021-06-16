@@ -14,7 +14,7 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This packa
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.23" />
+    <PackageReference Include="MySql.Data" Version="8.0.25" />
   </ItemGroup>
 
   <ItemGroup>

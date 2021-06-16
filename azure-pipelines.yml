@@ -14,6 +14,7 @@ steps:
     projects: '**/*.csproj'
     
 - task: VersionDotNetCoreAssemblies@2
+  displayName: Version assemblies
   inputs:
     Path: '$(Build.SourcesDirectory)'
     VersionNumber: '$(Build.BuildNumber)'
@@ -38,20 +39,22 @@ steps:
     arguments: '--configuration $(BuildConfiguration)'
 
 - task: DotNetCoreCLI@2
+  displayName: Pack Nugets
   inputs:
     command: 'pack'
     packagesToPack: 'source/**/*.csproj'
     versioningScheme: 'byBuildNumber'
 
-- task: DotNetCoreCLI@2
+- task: NuGetCommand@2
+  displayName: Push Nugets
   inputs:
     command: 'push'
-    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/**/*.nupkg;!$(Build.ArtifactStagingDirectory)/**/*.symbols.nupkg'
     nuGetFeedType: 'external'
     publishFeedCredentials: 'Nuget.org'
 
 - task: PublishBuildArtifacts@1
+  displayName: 'Publish Artifacts'
   inputs:
-    displayName: 'Publish Artifact'
     pathtoPublish: '$(Build.ArtifactStagingDirectory)' 
     artifactName: 'drop'

@@ -1,11 +1,11 @@
 ﻿-- Settings and Statistics
 
 create table $schema$.Setting(
-    [Id] [int] identity(1,1) not null constraint PK_Setting_Id primary key NOT ENFORCED,
+    [Id] [int] identity(1,1), -- not null constraint PK_Setting_Id primary key NOT ENFORCED,
 	[Name] [nvarchar](50) not null,
-	[Description] [nvarchar](max) not null,
+	[Description] [nvarchar](200) not null,
 	[DisplayName] [nvarchar](200) not null,
-	[Value] [nvarchar](max) not null
+	[Value] [nvarchar](200) not null
 )
 go
 

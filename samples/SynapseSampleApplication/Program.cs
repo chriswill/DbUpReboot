@@ -30,9 +30,9 @@ namespace SampleApplication
                     if (script.EndsWith("Script0006 - Transactions.sql"))
                         return !args.Any(a => "--noError".Equals(a, StringComparison.InvariantCultureIgnoreCase));
 
-                    return script.StartsWith("SampleApplication.Scripts.");
+                    return script.StartsWith("SynapseSampleApplication.Scripts.");
                 })
-                .WithScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly(), script => script.StartsWith("SampleApplication.RunAlways."), new SqlScriptOptions { ScriptType = ScriptType.RunAlways, RunGroupOrder = DbUpDefaults.DefaultRunGroupOrder + 1 })
+                .WithScriptsEmbeddedInAssembly(Assembly.GetExecutingAssembly(), script => script.StartsWith("SynapseSampleApplication.RunAlways."), new SqlScriptOptions { ScriptType = ScriptType.RunAlways, RunGroupOrder = DbUpDefaults.DefaultRunGroupOrder + 1 })
                 .LogToConsole();
 
             if (args.Any(a => "--withTransaction".Equals(a, StringComparison.InvariantCultureIgnoreCase)))

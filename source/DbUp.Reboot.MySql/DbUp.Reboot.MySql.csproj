@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <Authors>DbUp Reboot Contributors</Authors>
     <Description>DbUp Reboot is a fork of the DbUp project that focuses on modern technologies and development approaches.
@@ -14,7 +14,7 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This packa
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="MySql.Data" Version="8.0.25" />
+    <PackageReference Include="MySql.Data" Version="8.0.29" />
   </ItemGroup>
 
   <ItemGroup>

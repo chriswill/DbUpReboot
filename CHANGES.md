@@ -1,6 +1,6 @@
 # Changes
 
-### 1.2.0 2022-06-0
+### 1.2.0 2022-06-08
 * Updated to Microsoft.Data.SqlClient 4.1.0 and refreshed other dependencies.  Updated Test and Samples apps to Net6.0
 
 ### 1.1.0 2021-06-16

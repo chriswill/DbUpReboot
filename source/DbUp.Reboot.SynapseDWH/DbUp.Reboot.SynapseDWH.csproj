@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>DbUp Reboot is a fork of the DbUp project that focuses on modern technologies and development approaches.
+
+DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This package adds SynapseDWH support.</Description>
+    <Title>DbUp SynapseDWH Support</Title>
+    <Authors>DbUp Reboot Contributors</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>DbUp.Reboot.SynapseDWH</AssemblyName>
+    <PackageId>DbUp.Reboot.SynapseDWH</PackageId>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Copyright>Copyright © DbUp Reboot Contributors 2021; portions copyright  DbUp Contributors 2015</Copyright>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/chriswill/DbUpReboot</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/chriswill/DbUpReboot</RepositoryUrl>
+    <PackageTags>DbUp Reboot database SynapseDWH</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="3.0.0" />
+    <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.1" />
+</ItemGroup>
+
+<ItemGroup>
+  <ProjectReference Include="..\DbUp.Reboot.Core\DbUp.Reboot.Core.csproj" />
+</ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

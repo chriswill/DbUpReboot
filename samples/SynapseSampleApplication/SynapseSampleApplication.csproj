@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <RootNamespace>SynapseSampleApplication</RootNamespace>
+    <AssemblyName>SynapseSampleApplication</AssemblyName> 
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Scripts\*.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="RunAlways\RunAlwaysScript0001 - CreateRole.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="RunAlways\RunAlwaysScript0001 - CreateRole.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\source\DbUp.Reboot.SynapseDWH\DbUp.Reboot.SynapseDWh.csproj" />
+  </ItemGroup>
+</Project>

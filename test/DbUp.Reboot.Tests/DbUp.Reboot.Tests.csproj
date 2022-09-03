@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net6.0</TargetFramework>
     <AssemblyName>dbup.reboot.tests</AssemblyName>
     <PackageId>dbup.reboot.tests</PackageId>
     <GenerateRuntimeConfigurationFiles>true</GenerateRuntimeConfigurationFiles>
@@ -15,17 +15,17 @@
     <DefineConstants>$(DefineConstants);NETCORE</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
     <PackageReference Include="xunit" Version="2.4.1" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Serilog" Version="2.10.0" />
+    <PackageReference Include="Serilog" Version="2.11.0" />
     <PackageReference Include="Shouldly" Version="4.0.3" />
-    <PackageReference Include="Assent" Version="1.7.0" />
+    <PackageReference Include="Assent" Version="1.8.2" />
     <PackageReference Include="TestStack.BDDfy" Version="4.3.2" />
-    <PackageReference Include="NSubstitute" Version="4.2.2" />
+    <PackageReference Include="NSubstitute" Version="4.3.0" />
   </ItemGroup>
 
   <ItemGroup>

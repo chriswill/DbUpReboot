@@ -7,6 +7,7 @@
 | DbUp.Reboot.MySql | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.MySql)](https://www.nuget.org/packages/DbUp.Reboot.MySql/) |
 | DbUp.Reboot.Sqlite | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.Sqlite)](https://www.nuget.org/packages/DbUp.Reboot.Sqlite/) |
 | DbUp.Reboot.SqlServer | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.SqlServer)](https://www.nuget.org/packages/DbUp.Reboot.SqlServer/) |
+| DbUp.Reboot.SynapseDWH | [![NuGet Badge](https://buildstats.info/nuget/DbUp.Reboot.SynapseDWH)](https://www.nuget.org/packages/DbUp.Reboot.DbUp.Reboot.SynapseDWH/) |
 
 ***
 
@@ -14,6 +15,7 @@ DbUp Reboot is a fork of the [DbUp](https://github.com/DbUp/DbUp) project that f
 
 This library supports netstandard2.0 and the following databases:
 * Microsoft Sql Server
+* Azure SynapseDWH (Sql Datawarehouse)
 * MySql
 * Sqlite
 

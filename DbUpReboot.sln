@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29230.61
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.Core", "source\DbUp.Reboot.Core\DbUp.Reboot.Core.csproj", "{C98DE7C6-AF51-4901-904D-75FCCB17EE31}"
 EndProject
@@ -18,13 +18,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLiteSampleApplication", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{A4038E39-8E61-4004-AEFF-631DF5A3BE13}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbUp.Reboot.MySql", "source\DbUp.Reboot.MySql\DbUp.Reboot.MySql.csproj", "{7A595528-C313-4A7C-899F-C466CE3CA95D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.MySql", "source\DbUp.Reboot.MySql\DbUp.Reboot.MySql.csproj", "{7A595528-C313-4A7C-899F-C466CE3CA95D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DbUp.Reboot.SynapseDWH", "source\DbUp.Reboot.SynapseDWH\DbUp.Reboot.SynapseDWH.csproj", "{BCE32C14-27E3-4E0D-BC1F-EC9CCB128F01}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SynapseSampleApplication", "samples\SynapseSampleApplication\SynapseSampleApplication.csproj", "{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A1}"
 EndProject
-
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,7 +66,6 @@ Global
 		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A1}.Release|Any CPU.Build.0 = Release|Any CPU
-
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -76,6 +74,7 @@ Global
 		{854B6565-B423-4E2C-938B-406C6EAC9C0E} = {A4038E39-8E61-4004-AEFF-631DF5A3BE13}
 		{397F41BC-1076-4D1B-9620-C6051E8104F4} = {ACA9F575-BFC0-4FE1-BAB6-AE59FD8E5C26}
 		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A3} = {ACA9F575-BFC0-4FE1-BAB6-AE59FD8E5C26}
+		{FD894CD2-4D67-4BD8-8E3C-CDA4BD7A00A1} = {ACA9F575-BFC0-4FE1-BAB6-AE59FD8E5C26}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6807402B-EE7A-4324-A615-28F3499B1E9F}

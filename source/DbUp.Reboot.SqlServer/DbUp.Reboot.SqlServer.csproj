@@ -9,7 +9,7 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This packa
     <TargetFramework>netstandard2.0</TargetFramework>
     <AssemblyName>DbUp.Reboot.SqlServer</AssemblyName>
     <PackageId>DbUp.Reboot.SqlServer</PackageId>
-    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors><!-- PFM -->
     <RootNamespace>DbUp.Reboot.SqlServer</RootNamespace>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
@@ -19,8 +19,8 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This packa
   </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.0" />
-        <PackageReference Include="Microsoft.Azure.Services.AppAuthentication" Version="1.6.2" />
+        <PackageReference Include="Azure.Identity" Version="1.7.0" />
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
     </ItemGroup>
 
     <ItemGroup>

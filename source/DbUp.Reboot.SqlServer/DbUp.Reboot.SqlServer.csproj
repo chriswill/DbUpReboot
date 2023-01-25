@@ -19,8 +19,8 @@ DbUp Reboot makes it easy to deploy and upgrade SQL Server databases. This packa
   </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Azure.Identity" Version="1.7.0" />
-        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.0.1" />
+        <PackageReference Include="Azure.Identity" Version="1.8.1" />
+        <PackageReference Include="Microsoft.Data.SqlClient" Version="5.1.0" />
     </ItemGroup>
 
     <ItemGroup>

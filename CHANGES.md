@@ -1,5 +1,8 @@
 # Changes
 
+### 1.5.0 2023-01-24
+* No new features. Updated to the latest version of Nuget packages.
+
 ### 1.4.0 2022-10-10
 * Added support for Azure.Identity in [PR #8](https://github.com/chriswill/DbUpReboot/pull/8) from @techarch.  Removed support for Microsoft.Azure.Services.AppAuthentication.
 

@@ -1,5 +1,8 @@
 # Changes
 
+### 1.6.0 2023-10-18
+* No new features. Updated to the latest version of Nuget packages.
+
 ### 1.5.0 2023-01-24
 * No new features. Updated to the latest version of Nuget packages.
 

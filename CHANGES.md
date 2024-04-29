@@ -1,5 +1,8 @@
 # Changes
 
+### 1.7.0 2024-04-29
+* No new features. Updated to the latest version of Nuget packages, including Azure.Identity to fix a security vulnerability.
+
 ### 1.6.0 2023-10-18
 * No new features. Updated to the latest version of Nuget packages.
 
